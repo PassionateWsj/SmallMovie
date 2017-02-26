@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMineBackground"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <include layout="@layout/include_myfragment_blank"></include>
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <LinearLayout
+            android:id="@+id/ll_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/include_myfragment_info"></include>
+        </LinearLayout>
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <include layout="@layout/include_myfragment_blank"></include>
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <LinearLayout
+            android:id="@+id/ll_mid"
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            >
+
+            <include layout="@layout/include_myfragment_indicator_arrow"></include>
+
+            <include layout="@layout/include_myfragment_text_arrow"></include>
+
+            <include layout="@layout/include_myfragment_text_arrow"></include>
+
+            <include layout="@layout/include_myfragment_text_arrow"></include>
+
+            <include layout="@layout/include_myfragment_text_arrow"></include>
+        </LinearLayout>
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <include layout="@layout/include_myfragment_blank"></include>
+
+        <include layout="@layout/include_outter_horizon"></include>
+
+        <LinearLayout
+            android:id="@+id/ll_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_myfragment_togglebutton"></include>
+
+            <include layout="@layout/include_myfragment_text_arrow"></include>
+        </LinearLayout>
+
+        <include layout="@layout/include_outter_horizon"></include>
+    </LinearLayout>
+
+</ScrollView>

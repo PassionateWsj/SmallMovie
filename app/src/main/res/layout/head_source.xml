@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_background_source"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_logo"
+            android:id="@+id/tv_nikcename_sourece"
+            android:text="5555"
+            android:textSize="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tv_description"
+            android:layout_below="@id/tv_nikcename_sourece"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@id/tv_nikcename_sourece"
+            android:text="66666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tv_gonghzonghao"
+            android:text="77777"
+            android:layout_below="@id/tv_description"
+            android:layout_alignLeft="@id/tv_description"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </RelativeLayout>
+    <TextView
+        android:gravity="center_vertical"
+        android:text="@string/title_head"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </TextView>
+    <View
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"></View>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    L
+
+    <FrameLayout
+        android:id="@+id/fl_relate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/relate_img"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/relate_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="2dp"
+            android:text="00:00"
+            android:textColor="@color/colorWhite"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/relate_title"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_relate"
+        android:layout_marginTop="10dp"
+        android:text="testtesttesttesttesttesttest"
+        />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="140dp"
+        android:layout_toRightOf="@id/fl_relate"/>
+</RelativeLayout>

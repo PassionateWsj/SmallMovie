@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorTabChosen">#336590</color>
+    <color name="colorTabText">#878787</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorWhiteTranslucence">#7fff</color>
+    <color name="colorShallowBlack">#9000</color>
+    <color name="colorBlackShallow">#d000</color>
+    <color name="text_topic_all">#376C9A</color>
+    <color name="colorTipGray">#BBBBBB</color>
+    <color name="colorBlue">#336590</color>
+    <color name="colorLightBlue">#679FCF</color>
+    <color name="colorhalf">#6000</color>
+    <color name="colordemo">#1000</color>
+    <color name="colorRecommendBackground">#F5F5F5</color>
+    <color name="colordividGray">#F5F5F5</color>
+    <color name="colorCategorySearchBackgroundStroke">#e1e1e1</color>
+    <color name="colorCheckForAll">#396793</color>
+    <color name="colorToggleButtonOn">#02E266</color>
+    <color name="colorToggleButtonOff">#DADBDA</color>
+    <color name="colorMineBackground">#F5F5F5</color>
+    <color name="colorRegisterBackground">#181616</color>
+    <color name="colorRegisterHint">#666666</color>
+    <color name="colorRegisterButton">#336596</color>
+    <color name="colorMovieDetailBackground">#5000</color>
+    <color name="colorSocialistLogin">#7A7979</color>
+    <color name="colortoolbartitle">#396793</color>
+    <color name="colorUpdateText">#36658D</color>
+    <color name="colorRed">#f00</color>
+
+
+</resources>

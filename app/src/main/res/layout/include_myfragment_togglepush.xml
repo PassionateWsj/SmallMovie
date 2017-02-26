@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:toggle="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+    android:background="@color/colorWhite">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="  推送设置"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+    <com.zcw.togglebutton.ToggleButton
+        android:layout_width="54dp"
+        android:layout_weight="2"
+        toggle:tbOnColor="@color/colorToggleButtonOn"
+        toggle:tbOffColor="@color/colorToggleButtonOff"
+        toggle:tbSpotColor="@color/colorWhite"
+        toggle:tbOffBorderColor="@color/colorToggleButtonOff"
+        toggle:tbBorderWidth="2dp"
+        android:layout_height="0dp"
+        >
+    </com.zcw.togglebutton.ToggleButton>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>

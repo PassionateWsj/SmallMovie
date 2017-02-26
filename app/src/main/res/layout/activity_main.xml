@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sha1607.smallmovie.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        android:orientation="vertical"
+        android:layout_weight="10"/>
+
+    <LinearLayout
+        android:id="@+id/ll_main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            style="@style/MainTabLinearLayout">
+
+            <ImageView
+                style="@style/MainTabImg"/>
+
+            <TextView
+                style="@style/MainTabText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/MainTabLinearLayout">
+
+            <ImageView
+                style="@style/MainTabImg"/>
+
+            <TextView
+                style="@style/MainTabText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/MainTabLinearLayout">
+
+            <ImageView
+                style="@style/MainTabImg"/>
+
+            <TextView
+                style="@style/MainTabText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/MainTabLinearLayout">
+
+            <ImageView
+                style="@style/MainTabImg"/>
+
+            <TextView
+                style="@style/MainTabText"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

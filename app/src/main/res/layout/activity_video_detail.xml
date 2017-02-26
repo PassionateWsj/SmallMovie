@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorWhite"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <io.vov.vitamio.widget.CenterLayout
+            android:id="@+id/cl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <io.vov.vitamio.widget.VideoView
+            android:id="@+id/vv_video_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vdieo_conmment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

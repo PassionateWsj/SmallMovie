@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:paddingBottom="7dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <TextView
+            android:id="@+id/tv_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/text_topic"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tv_topic_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_topic"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:drawableRight="@drawable/iv_topic_all"
+            android:text="@string/text_check_more"
+            android:textColor="@color/text_topic_all"
+            android:textSize="16sp"/>
+
+        <GridView
+            android:id="@+id/gv_topic"
+            android:layout_width="match_parent"
+            android:layout_height="640dp"
+            android:scrollbars="none"
+            android:layout_below="@id/tv_topic"
+            android:numColumns="2"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBackground"
+        android:paddingLeft="15dp"
+        android:text="@string/text_hot_article"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+</LinearLayout>

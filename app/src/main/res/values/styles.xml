@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--主界面下方TabLinearLayout标题样式-->
+    <style name="MainTabLinearLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--主界面下方TabImg标题样式-->
+    <style name="MainTabImg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+    <!--主界面下方TabText标题样式-->
+    <style name="MainTabText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/test</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/colorTabText</item>
+    </style>
+
+    <!--分类专题部分TextViewTitle的style-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="@string/test"-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:textSize="18sp"-->
+    <style name="tv_topic_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:text">@string/test</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--分类专题部分TextView订阅的详情style-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:text="@string/test"-->
+    <!--android:textColor="@color/colorShallowBlack"-->
+    <style name="tv_topic_item_subscribeNum">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">@string/test</item>
+        <item name="android:textColor">@color/colorShallowBlack</item>
+    </style>
+
+    <style name="TopicListActivityToolBarTheme" parent="Theme.AppCompat">
+    </style>
+
+    <style name="MyTabStyle" parent="Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorColor">@color/colorBlue</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="tabSelectedTextColor">@color/colorBlue</item>
+        <item name="tabBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="MovieDetailIntroduceText">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="MovieIntentionButton">
+        <item name="android:background">@drawable/movie_btn_bg</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="15dp"-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:textSize="15sp"-->
+    <style name="TextMovieDetailLittleTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MovieDetailLinearLayoutContainer">
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="MovieDetailScrollViewContainer">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+        //退出时的动画
+    </style>
+</resources>

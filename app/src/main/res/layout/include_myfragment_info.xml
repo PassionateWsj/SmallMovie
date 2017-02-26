@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="120dp"
+              android:background="@color/colorWhite">
+    
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="100dp"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:text="登录/注册"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:layout_below="@id/tv_register"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="登录使用全部功能"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorTipGray"
+                />
+        </RelativeLayout>
+        <ImageView
+           android:layout_width="0dp"
+               android:layout_height="match_parent"
+           android:layout_weight="1.5"
+           android:layout_marginRight="-40dp"
+           android:scaleType="center"
+          android:src="@mipmap/arrow_right"/>
+</LinearLayout>
